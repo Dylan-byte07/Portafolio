@@ -1,0 +1,18 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+@font-face {
+  font-family: "command";
+  src: url("windows_command_prompt.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C63AD;
+    color: white;
+    font-size:35px;
+    padding: 1rem;
+    font-family: command
+}
