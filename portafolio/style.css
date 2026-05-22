@@ -5,7 +5,6 @@ body { margin: 0; font-family: Arial, sans-serif; }
   font-weight: normal;
   font-style: normal;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -15,4 +14,16 @@ body { margin: 0; font-family: Arial, sans-serif; }
     font-size:35px;
     padding: 1rem;
     font-family: command
+}
+
+.background {
+  height: 500px;
+  width: 100%;
+  background: url(imagenes/Vista.png);
+  background-image: linear-gradient(rgba(229, 43, 68, 0.50), rgba(229, 43, 68, 0.50)), url(imagenes/Vista.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  clear: 60%;
+  ;
 }
